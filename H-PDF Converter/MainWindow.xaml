@@ -48,7 +48,7 @@
 
 
         <ComboBox x:Name="conversionDropDown" Text ="     Select Format" Grid.Column="2" Grid.Row="2" 
-                                  Foreground="Violet"  Width="123" IsEditable="True" IsReadOnly="True" Margin="8,4,102,59" FontWeight="Bold" Grid.RowSpan="2" 
+                                  Foreground="Violet"  Width="123" IsEditable="True" IsReadOnly="True" Margin="8,4,102,26" FontWeight="Bold" 
                                 >
             <Button Content="  PDF to Doc" Foreground="Purple" Click="ConvertToDoc"/>
             <Button Content="  PDF to JPEG" Foreground="Purple" Click=" ConvertToJPEG"/>
@@ -57,13 +57,13 @@
 
         </ComboBox>
 
-        <Button Content="Convert" 
+        <!--<Button Content="Convert" 
                               HorizontalAlignment="Left" Height="35" 
                               Grid.Row="3" Grid.Column="1" VerticalAlignment="Top" Width="114"
                               Background="Violet"
                               Foreground="White"
                               Click="SelectFileClick" Margin="50,25,0,0"
-                              />
+                              />-->
 
     </Grid>
 </Window>
